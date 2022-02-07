@@ -1,0 +1,14 @@
+name: self hosted runner
+on: 
+ push:
+   branches:
+      - main
+jobs:
+  init:
+    runs-on: self-hosted
+    steps:
+     
+      - name: whoami
+        run: echo $(whoami)
+      - name: systeminfo
+        run: echo $(systeminfo)
