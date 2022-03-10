@@ -1,4 +1,4 @@
-name: build and publish python code as a package
+name: build and publish python code as a packages
 on:
  push:
    branches:
